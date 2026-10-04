@@ -7,3 +7,5 @@ Recursos utilizados:
 - whisper: Para cargar el modelo de inteligencia artificial y procesar el archivo de audio para convertirlo en texto.
 
 - threading: Para ejecutar tareas pesadas (la carga del modelo y el proceso de transcripción) en hilos secundarios, lo que evita que la interfaz del programa se congele mientras trabaja.
+
+- Las transcripciones al finalizar se guardan en una carpeta por separado llamada transcripciones y los archivos son en formato TXT con el nombre del archivo de audio.
